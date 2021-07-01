@@ -5,7 +5,7 @@
 // add(2, 5) geeft 7
 
 function add(a, b) {
-  return a + b;
+    return a + b;
 }
 
 const result = add(1, 4);
@@ -17,6 +17,14 @@ console.log(result);
 // greeter("Jan") geeft "Hoi Jan!"
 // greeter("Kees") geeft "Hoi Kees!"
 
+function greeter(name) {
+
+    console.log("hoi " + name + "!")
+
+}
+
+greeter("Jan")
+greeter("Kees")
 
 
 /* Opdracht 2 */
@@ -25,6 +33,18 @@ console.log(result);
 // minutesToSeconds(1) geeft 60
 // minutesToSeconds(3) geeft 180
 // minutesToSeconds(23) geeft 1380
+
+function minutesToSeconds(seconds, minutes){
+
+   return minutes / seconds
+
+
+}
+
+minutesToSeconds(60, 1)
+
+
+
 
 
 
@@ -36,14 +56,11 @@ console.log(result);
 // merge("zoet", "sappig") geeft "zoetsappig"
 
 
-
-
 /* Opdracht  4 */
 // Schrijf een functie genaamd calculateDogYears die de hondenleeftijd verwacht en dit omrekent naar mensenjaren (1 tot 7). Op basis daarvan wordt een zinnetje teruggegeven.
 // ---- Verwachte uitkomsten:
 // calculateDogYears(6) geeft "Jouw hond is 42 jaar oud in mensenjaren."
 // calculateDogYears(2) geeft "Jouw hond is 14 jaar oud in mensenjaren."
-
 
 
 /* Opdracht 5 */
@@ -53,7 +70,6 @@ console.log(result);
 // wrapper("bril", "*") geeft "*bril*"
 // wrapper("beep", "_") geeft "_beep_"
 // wrapper("kaas", "Q") geeft "QkaasQ"
-
 
 
 /* Bonus opdracht  */
