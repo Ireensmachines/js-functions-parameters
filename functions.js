@@ -8,6 +8,7 @@ function morningGreeter() {
 
 const greeting = morningGreeter();
 
+
 console.log(greeting);
 
 /* Opdracht 1 */
